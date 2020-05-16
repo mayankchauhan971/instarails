@@ -1,0 +1,55 @@
+.feed {
+  text-align: center;
+}
+
+.feed-post-image {
+  margin-top: 1em;
+}
+
+.feed-post-caption {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  // 450px the size of image
+}
+
+.show-post{
+  text-align: center;
+}
+
+.feed-post-username{
+  font-size: 1em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  text-decoration: bold;
+
+}
+
+.show-post-image {
+  margin-top: 3em;
+}
+
+.show-post-caption {
+  font-size: 1em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  // 450px the size of image
+}
+
+.show-post-options{
+  margin-bottom: 2em;
+}
+
+.profile-username{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}

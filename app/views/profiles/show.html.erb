@@ -1,0 +1,14 @@
+<h1 class = "profile-username">
+  <%= current_user.user_name%>
+</h1>
+
+<div class = "feed">
+  <% @posts.each do |post| %>
+    <div class = "feed-post-image">
+      <%= link_to (image_tag post.image.url(:medium)),post_path(post)%>
+    </div>
+    <div class="feed-post-caption">
+      <%= post.caption%>
+    </div>
+  <% end %>
+</div>

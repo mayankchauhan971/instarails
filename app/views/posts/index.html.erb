@@ -1,7 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<div>
-  <%= render @posts %>
+<div id="posts">
+	<% @posts.each do |post| %>
+	  <%= render 'post', post: post %>
+	<% end %>
 </div>
 <div id="infinite-scrolling">
   <%= will_paginate @posts %>

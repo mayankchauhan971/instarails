@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-# README
+# Instagram Clone using Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# RailsInstagram
-Instagram Clone based on Rails!!
->>>>>>> 8c1573b2bd94d120b1082886ee2e3f7c2f06e71e
+A clone of Instagram with Ruby on Rails in backend and ReactJS in frontend and SQL database.
